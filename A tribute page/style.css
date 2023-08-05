@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+	background: #fff;
+	color: #000;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.showcase-top h1 {
+	text-align: center;
+}
+
+.showcase-top h2 {
+	text-align: center;
+	/*margin-right: 30%;*/
+}
+
+.showcase-1 p{
+	margin-right: 50%;
+	margin:0 0 2rem;
+	padding-left:25rem;
+	padding-top: 1rem;
+}
+
+.showcase-picture{
+	border-radius: 15px;
+	padding: 10px;
+	margin: 1px;
+	background-color: #ccc;
+	text-align: center;
+	color: #222;
+	
+}
+
+.text-center{
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.text-center-quote-1{
+	text-align: center;
+}
+
+.text-center-quote-2{
+	text-align: left;
+	color: #222;
+	margin-left: 40%;
+}
+
+.timeline {
+	padding: 20px;
+	margin-bottom: 2rem;
+}
+
+.timeline ul li{
+	margin-left: 2rem;
+	display: grid;
+	grid-template-rows: repeat(8,0.01fr);
+	grid-gap: 0.1rem;
+	/* justify-content: center; */
+	 align-items: center;
+	 background-color:#ccc;
+}
+
+.timeline ul li{
+	padding-bottom: 6px;
+	border-bottom: dotted 1px #333;
+}
+.timeline ul li:nth-child(even){
+    background:#fff;
+}
